@@ -246,22 +246,13 @@
 .containerParis {
   filter: blur(6px);
 }
-/* footer styling */
-.link {
-  text-decoration: none;
-  transition: all 0.4s ease;
-}
-.link:hover {
-  text-decoration: underline;
-}
-.footer {
-  position: absolute;
-  bottom: 14px;
-  left: 45%;
-  font-size: 20px;
-}
+
 .cardHidden {
   display: none;
+}
+.tripParis {
+  text-decoration: none;
+  color: gray;
 }
 /* responsive */
 @media (max-width: 1536px) {
@@ -416,11 +407,7 @@
   .div3 {
     display: none;
   }
-  .footer {
-    left: 10%;
-    bottom: 1%;
-    font-size: 22px;
-  }
+
   .checkBox {
     height: 21px;
     width: 21px;
@@ -556,10 +543,6 @@
   .plusCircle {
     padding-top: 4px;
   }
-  .footer {
-    left: 10%;
-    font-size: 18px;
-  }
 }
 @media (max-width: 281px) {
   .arrowLeft {
@@ -602,9 +585,5 @@
   }
   .plusCircle {
     padding-top: 0px;
-  }
-  .footer {
-    width: 90%;
-    font-size: 17px;
   }
 }
